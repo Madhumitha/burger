@@ -1,6 +1,7 @@
 
 const render = function ({id, burger, devour}) {
     return `
+    <img src="https://cookieandkate.com/images/2013/05/sweet-potato-black-bean-veggie-burgers-1.jpg" alt="Veggie Burger" >
     <div>
         <text>EAT - DA - BURGER!!!</text>
     </div>
