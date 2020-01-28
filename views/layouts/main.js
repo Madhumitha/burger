@@ -1,4 +1,4 @@
-function render(body) {
+const render = function render(body) {
     return `<!DOCTYPE html>
     <html lang="en">
     <head>
