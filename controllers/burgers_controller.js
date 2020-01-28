@@ -7,8 +7,8 @@ var burger = require('../models/burger.js');
 
 // Import the views to complete MVC workflow
 
-const mainLayoutView = require('./views/layouts/main.js');
-const indexLayoutView = require('./views/index.js');
+const mainLayoutView = require('../views/layouts/main.js');
+const indexLayoutView = require('../views/index.js');
 
 // Create all our routes and set up logic within those routes where required.
 router.get('/', function(req, res) {
